@@ -1,0 +1,12 @@
+<div class="jumbotron">
+  <h1 class="display-4">Welcome To My Blog</h1>
+  <ul>
+    <li *ngFor="let name of names">{{name}}</li>
+  </ul>
+  <ul *ngIf="users">
+    <li *ngFor="let user of users">{{user.name}}</li>
+  </ul>
+  <p class="lead">
+    <a class="btn btn-success btn-lg" (click)="learnMore();" role="button">Learn more</a>
+  </p>
+</div>
