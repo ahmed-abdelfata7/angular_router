@@ -1,8 +1,16 @@
-# MyBlog
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.1.
+# Angular Router
+This is a simple project with angular 7
+- Generating components
+- Adding Routing 
 
 ## Development server
+- Download the project or clone it by running the following command
+`git clone https://github.com/EngAhmedMahmoud/angular_router.git`
+- Navigate to working directory
+`cd angular_router`
+- Install dependancies 
+`npm i`
+- Finally running the application 
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
