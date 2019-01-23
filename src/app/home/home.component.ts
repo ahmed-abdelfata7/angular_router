@@ -10,6 +10,6 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
   }
   learnMore() {
-    alert("Hello Angular");
+    alert("We are in Home Page");
   }
 }

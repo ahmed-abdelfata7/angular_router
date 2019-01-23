@@ -11,5 +11,7 @@ export class AboutComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  learnMore() {
+    alert("We are in About Page");
+  }
 }

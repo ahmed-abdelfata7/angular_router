@@ -1,13 +1,6 @@
-<br>
-<br>
-<div class="container">
-  <form [formGroup]='messageForm' (ngSubmit)="onSubmitted();">
-    <h5 *ngIf="success">Your Form is Valid</h5>
-    <input type="text" formControlName="name">
-    <div class="error" *ngIf="submitted && messageForm.controls.name.errors">
-      <div *ngIf="messageForm.controls.name.errors.required"> Your Name is required</div>
-    </div>
-    <input type="submit" value="Send">
-  </form>
-  <div *ngIf="submitted">{{messageForm.controls.name.value}}</div>
+<div class="jumbotron">
+  <h3 class="display-4">Welcome Angular router(Contact Page)</h3>
+  <p class="lead">
+    <a class="btn btn-success btn-lg" (click)="learnMore();" role="button">Learn more</a>
+  </p>
 </div>
