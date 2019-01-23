@@ -5,7 +5,7 @@ This is a simple project with angular 7
 
 ## Development server
 - Download the project or clone it by running the following command
-`git clone https://github.com/EngAhmedMahmoud/angular_router.git`
+```git clone https://github.com/EngAhmedMahmoud/angular_router.git```
 - Navigate to working directory
 `cd angular_router`
 - Install dependancies 
