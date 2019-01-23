@@ -6,16 +6,10 @@ import { DataService } from './../data.service';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  users: Object;
-  names = ["ali", "ahmed", "amr", "diaa"];
-  constructor(private data: DataService) { }
-
+  constructor() { }
   ngOnInit() {
-    this.data.getUsers().subscribe((data) => {
-      this.users = data;
-    });
   }
   learnMore() {
-    alert("Hello My name is Ahmed Mahmoud");
+    alert("Hello Angular");
   }
 }
